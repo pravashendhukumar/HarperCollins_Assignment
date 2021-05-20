@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.]]>
+    </line>
+    <line>
+      <![CDATA[Done Mouse hover on Choose Language Icon]]>
+    </line>
+    <line>
+      <![CDATA[Done Mouse hover on Portegese Language selection box]]>
+    </line>
+    <line>
+      <![CDATA[Test Pass-Successfully able to change the shoping Language]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-20T07:31:27Z" name="Suite" finished-at="2021-05-20T07:32:32Z" duration-ms="65379">
+    <groups>
+    </groups>
+    <test started-at="2021-05-20T07:31:27Z" name="Test" finished-at="2021-05-20T07:32:32Z" duration-ms="65379">
+      <class name="testscenario.AmazonPagesTest">
+        <test-method is-config="true" signature="browserSetupAndUrlLaunch()[pri:0, instance:testscenario.AmazonPagesTest@6ff29830]" started-at="2021-05-20T07:31:27Z" name="browserSetupAndUrlLaunch" finished-at="2021-05-20T07:31:36Z" duration-ms="9149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetupAndUrlLaunch -->
+        <test-method signature="verifyHomePageLanding()[pri:0, instance:testscenario.AmazonPagesTest@6ff29830]" started-at="2021-05-20T07:31:36Z" name="verifyHomePageLanding" description="Verify the correct redirection of url amazon.com" finished-at="2021-05-20T07:31:36Z" duration-ms="271" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLanding -->
+        <test-method signature="verifyAddToCartFunctionality()[pri:0, instance:testscenario.AmazonPagesTest@6ff29830]" started-at="2021-05-20T07:31:36Z" name="verifyAddToCartFunctionality" finished-at="2021-05-20T07:32:09Z" depends-on-methods="testscenario.AmazonPagesTest.verifyHomePageLanding" duration-ms="33166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartFunctionality -->
+        <test-method signature="verifyLanguageSelectionForShoping()[pri:0, instance:testscenario.AmazonPagesTest@6ff29830]" started-at="2021-05-20T07:32:09Z" name="verifyLanguageSelectionForShoping" description="Verify the selection of local shoping language and reselect the English language" finished-at="2021-05-20T07:32:22Z" depends-on-methods="testscenario.AmazonPagesTest.verifyHomePageLanding" duration-ms="12316" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Done Mouse hover on Choose Language Icon]]>
+            </line>
+            <line>
+              <![CDATA[Done Mouse hover on Portegese Language selection box]]>
+            </line>
+            <line>
+              <![CDATA[Test Pass-Successfully able to change the shoping Language]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLanguageSelectionForShoping -->
+        <test-method signature="verifyProductSearch()[pri:0, instance:testscenario.AmazonPagesTest@6ff29830]" started-at="2021-05-20T07:32:22Z" name="verifyProductSearch" finished-at="2021-05-20T07:32:32Z" depends-on-methods="testscenario.AmazonPagesTest.verifyHomePageLanding" duration-ms="10111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testscenario.AmazonPagesTest@6ff29830]" started-at="2021-05-20T07:32:32Z" name="tearDown" finished-at="2021-05-20T07:32:32Z" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testscenario.AmazonPagesTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
